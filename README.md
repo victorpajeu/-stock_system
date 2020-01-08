@@ -6,3 +6,5 @@ Sistema de estoque simples, tendo como linguagem principal o python e utilizando
 
 * Criar uma máquina virtual
 * Ative a Máquina Virtual
+* Instale o Django Ultilizando o PIP
+* Utilize o arquivo utilitário manage.py
