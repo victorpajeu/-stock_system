@@ -126,4 +126,4 @@ STATIC_URL = '/static/'
 
 # User
 
-AUTH_USER_MODEL = 'models.User'
+AUTH_USER_MODEL = 'accounts.User'
