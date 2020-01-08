@@ -5,3 +5,4 @@ Sistema de estoque simples, tendo como linguagem principal o python e utilizando
 # Como *rodar*?
 
 * Criar uma máquina virtual
+* Ative a Máquina Virtual
