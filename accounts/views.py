@@ -1,5 +1,5 @@
-from django.shortcuts import render
+from django.views.generic import TemplateView
 
 
-def home(request):
-    return render(request, 'layout/dashboard.html')
+class Dashboard(TemplateView):
+    template_name = 'accounts/dashboard.html'
