@@ -40,6 +40,10 @@ INSTALLED_APPS = [
     # External Apps
     # Internal Apps
     'accounts',
+    'core',
+    'employees',
+    'products',
+    'estoquethemer',
 
 ]
 
