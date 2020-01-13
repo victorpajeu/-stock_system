@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     # External Apps
+    'widget_tweaks',
     # Internal Apps
     'accounts',
     'core',
@@ -131,3 +132,8 @@ STATIC_URL = '/static/'
 # User
 
 AUTH_USER_MODEL = 'accounts.User'
+
+# LOGIN
+LOGIN_URL = 'accounts:login'
+LOGIN_REDIRECT_URL = 'accounts:dashboard'
+LOGOUT_URL = 'accounts:logout'
